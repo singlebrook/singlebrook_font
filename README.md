@@ -11,6 +11,8 @@ This will eventually become a sub-module so that updates will easily be sent to 
 
 ## Singlebrook Benefits Font
 
-Explanation to come.
+This typeface contains all icons illustrating the benefits of working at Singlebrook on the Careers & individual job posting pages.  The file structure is the same as above; .woff, .ttf, .svg, and .eot are variations necessary for cross-browser @font-face declarations.  The .fog file is the editable Fontographer file.
+
+The method for creating the necessary file variations is the same as above.
 
 2.1.2013
