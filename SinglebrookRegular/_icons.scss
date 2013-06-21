@@ -1,0 +1,193 @@
+// ICONS
+// These are helper classes that you can @extend to elements.
+// also you @extend .icon-fill to access the filled characters. (only A thru O)
+
+.icons {
+  font-family: 'singlebrookRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-fill {
+  text-transform: uppercase;
+}
+
+////////////////////////////
+// Brand
+////////////////////////////
+.icon-sb-logo:before {
+  @extend .icons;
+  content: '0';
+}
+
+.icon-logotype:before {
+  @extend .icons;
+  content: '1';
+}
+
+
+//////////////////////////////
+// FILL / OUTLINE ICONS
+//////////////////////////////
+.icon-star:before {
+  @extend .icons;
+  content: 'a';
+}
+
+.icon-bubble:before {
+  @extend .icons;
+  content: 'b';
+}
+
+.icon-thumb:before {
+  @extend .icons;
+  content: 'c';
+}
+
+.icon-question:before {
+  @extend .icons;
+  content: 'd';
+}
+
+.icon-phone:before {
+  @extend .icons;
+  content: 'e';
+}
+
+.icon-paper:before {
+  @extend .icons;
+  content: 'f';
+}
+
+.icon-twitter:before {
+  @extend .icons;
+  content: 'g';
+}
+
+.icon-quote-open:before {
+  @extend .icons;
+  content: 'h';
+}
+
+.icon-quote-close:before {
+  @extend .icons;
+  content: 'i';
+}
+
+.icon-octo:before {
+  @extend .icons;
+  content: 'j';
+}
+
+.icon-facebook:before {
+  @extend .icons;
+  content: 'k';
+}
+
+.icon-linkedin:before {
+  @extend .icons;
+  content: 'l';
+}
+
+.icon-rss:before {
+  @extend .icons;
+  content: 'm';
+}
+
+.icon-email:before {
+  @extend .icons;
+  content: 'n';
+}
+
+.icon-lab:before {
+  @extend .icons;
+  content: 'o';
+}
+
+
+////////////////////////////
+// Generic
+////////////////////////////
+.icon-youtube:before {
+  @extend .icons;
+  content: 'P';
+}
+
+.icon-check:before {
+  @extend .icons;
+  content: 'Q';
+}
+
+.icon-time:before {
+  @extend .icons;
+  content: 'T';
+}
+
+.icon-feather:before {
+  @extend .icons;
+  content: 'U';
+}
+
+.icon-cpu-check:before {
+  @extend .icons;
+  content: 'V';
+}
+
+.icon-rocket:before {
+  @extend .icons;
+  content: 'W';
+}
+
+.icon-lock:before {
+  @extend .icons;
+  content: 'X';
+}
+
+.icon-heart:before {
+  @extend .icons;
+  content: 'Y';
+}
+
+
+////////////////////////////
+// Emoticons
+////////////////////////////
+.icon-happy-thick:before {
+  @extend .icons;
+  content: 'S';
+}
+
+.icon-meh-thick:before {
+  @extend .icons;
+  content: 'R';
+}
+
+.icon-sad-thick:before {
+  @extend .icons;
+  content: 's';
+}
+
+.icon-very-happy:before {
+  @extend .icons;
+  content: 't';
+}
+
+.icon-happy:before {
+  @extend .icons;
+  content: 'u';
+}
+
+.icon-meh:before {
+  @extend .icons;
+  content: 'v';
+}
+
+.icon-sad:before {
+  @extend .icons;
+  content: 'w';
+}
+
+.icon-very-sad:before {
+  @extend .icons;
+  content: 'x';
+}
