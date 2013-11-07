@@ -84,6 +84,11 @@
   content: 'k';
 }
 
+.icon-googleplus:before {
+  @extend .icons;
+  content: 'p';
+}
+
 .icon-linkedin:before {
   @extend .icons;
   content: 'l';
